@@ -1,0 +1,212 @@
+---------------------------------------------------------------
+[ 2024-06-11T14:55:55+08:00 ] 192.168.65.1 GET localhost/root.php
+[ error ] [2]file_put_contents(/www/runtime/cache/4e/819c837d54a6ed09abc77a8560a66f.php): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2024-06-11T14:55:57+08:00 ] 192.168.65.1 GET localhost/root.php
+[ error ] [2]file_put_contents(/www/runtime/cache/4e/819c837d54a6ed09abc77a8560a66f.php): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2024-06-11T14:56:23+08:00 ] 192.168.65.1 GET localhost/root.php
+[ error ] [2]file_put_contents(/www/runtime/cache/4e/819c837d54a6ed09abc77a8560a66f.php): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2024-06-11T14:56:25+08:00 ] 192.168.65.1 GET localhost/root.php
+[ error ] [2]file_put_contents(/www/runtime/cache/4e/819c837d54a6ed09abc77a8560a66f.php): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2024-06-11T14:56:26+08:00 ] 192.168.65.1 GET localhost/root.php
+[ error ] [2]file_put_contents(/www/runtime/cache/4e/819c837d54a6ed09abc77a8560a66f.php): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2024-06-11T14:56:28+08:00 ] 192.168.65.1 GET localhost/root.php
+[ error ] [2]file_put_contents(/www/runtime/cache/4e/819c837d54a6ed09abc77a8560a66f.php): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2024-06-11T14:58:05+08:00 ] 192.168.65.1 GET localhost/favicon.ico
+[运行时间：0.602337s] [吞吐率：1.66req/s] [内存消耗：2,034.33kb] [文件加载：56]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000107s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.052212s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.013790s ]
+[ info ] [ LANG ] /www/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000045s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=icksp1ubgi5k5rs478g7bsk2ji; think_var=zh-cn; _sp_id.1fff=adce8358-a279-4d42-8173-3623c5d623f1.1707909454.3.1708945086.1708743013.c2ebdf79-c8f5-44bb-8292-ab597f932343.e3c0b982-dbc6-4ee2-93e1-85ccd5f7c6ca.3563d5d2-b00f-478d-aae1-cc45419d5638.1708945086327.1; Hm_lvt_21f50b3bc403e7ad3e52abffe08e741d=1709514286; Hm_lpvt_21f50b3bc403e7ad3e52abffe08e741d=1709829303; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'referer' => 'http://localhost/root.php',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-06-11T14:59:19+08:00 ] 192.168.65.1 GET localhost/
+[运行时间：0.446754s] [吞吐率：2.24req/s] [内存消耗：3,223.20kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000096s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.017933s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.004956s ]
+[ info ] [ LANG ] /www/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000048s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=icksp1ubgi5k5rs478g7bsk2ji; think_var=zh-cn; _sp_id.1fff=adce8358-a279-4d42-8173-3623c5d623f1.1707909454.3.1708945086.1708743013.c2ebdf79-c8f5-44bb-8292-ab597f932343.e3c0b982-dbc6-4ee2-93e1-85ccd5f7c6ca.3563d5d2-b00f-478d-aae1-cc45419d5638.1708945086327.1; Hm_lvt_21f50b3bc403e7ad3e52abffe08e741d=1709514286; Hm_lpvt_21f50b3bc403e7ad3e52abffe08e741d=1709829303; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'purpose' => 'prefetch',
+  'sec-purpose' => 'prefetch;prerender',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005960s ]
+[ info ] [ LANG ] /www/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-06-11T15:03:14+08:00 ] 192.168.65.1 GET localhost/
+[运行时间：0.289024s] [吞吐率：3.46req/s] [内存消耗：3,012.95kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000061s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013063s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.005388s ]
+[ info ] [ LANG ] /www/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000041s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=icksp1ubgi5k5rs478g7bsk2ji; think_var=zh-cn; _sp_id.1fff=adce8358-a279-4d42-8173-3623c5d623f1.1707909454.3.1708945086.1708743013.c2ebdf79-c8f5-44bb-8292-ab597f932343.e3c0b982-dbc6-4ee2-93e1-85ccd5f7c6ca.3563d5d2-b00f-478d-aae1-cc45419d5638.1708945086327.1; Hm_lvt_21f50b3bc403e7ad3e52abffe08e741d=1709514286; Hm_lpvt_21f50b3bc403e7ad3e52abffe08e741d=1709829303; thinkphp_show_page_trace=1|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005283s ]
+[ info ] [ LANG ] /www/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-06-11T15:03:30+08:00 ] 192.168.65.1 GET localhost/
+[运行时间：0.411073s] [吞吐率：2.43req/s] [内存消耗：3,012.95kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000083s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.019221s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.018821s ]
+[ info ] [ LANG ] /www/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000060s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=icksp1ubgi5k5rs478g7bsk2ji; think_var=zh-cn; _sp_id.1fff=adce8358-a279-4d42-8173-3623c5d623f1.1707909454.3.1708945086.1708743013.c2ebdf79-c8f5-44bb-8292-ab597f932343.e3c0b982-dbc6-4ee2-93e1-85ccd5f7c6ca.3563d5d2-b00f-478d-aae1-cc45419d5638.1708945086327.1; Hm_lvt_21f50b3bc403e7ad3e52abffe08e741d=1709514286; Hm_lpvt_21f50b3bc403e7ad3e52abffe08e741d=1709829303; thinkphp_show_page_trace=1|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br, zstd',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006585s ]
+[ info ] [ LANG ] /www/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
